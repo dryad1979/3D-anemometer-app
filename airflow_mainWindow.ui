@@ -42,6 +42,12 @@
             <layout class="QVBoxLayout" name="verticalLayout">
              <item>
               <widget class="QPushButton" name="push_renew">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
                <property name="text">
                 <string>Renew COM port</string>
                </property>
@@ -61,7 +67,7 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>23</height>
+                   <height>30</height>
                   </size>
                  </property>
                 </widget>
@@ -75,6 +81,12 @@
                </item>
                <item row="2" column="1">
                 <widget class="QPushButton" name="push_saveroute">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>30</height>
+                  </size>
+                 </property>
                  <property name="text">
                   <string>Select</string>
                  </property>
@@ -82,6 +94,12 @@
                </item>
                <item row="1" column="1">
                 <widget class="QLineEdit" name="lineEdit_COM">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>30</height>
+                  </size>
+                 </property>
                  <property name="font">
                   <font>
                    <family>Calibri</family>
@@ -130,6 +148,12 @@ p, li { white-space: pre-wrap; }
             <layout class="QVBoxLayout" name="verticalLayout_2">
              <item>
               <widget class="QPushButton" name="push_start">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
                <property name="text">
                 <string>Start</string>
                </property>
@@ -140,6 +164,12 @@ p, li { white-space: pre-wrap; }
              </item>
              <item>
               <widget class="QPushButton" name="push_mark">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
                <property name="text">
                 <string>Mark</string>
                </property>
@@ -147,6 +177,12 @@ p, li { white-space: pre-wrap; }
              </item>
              <item>
               <widget class="QPushButton" name="push_clear">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
                <property name="text">
                 <string>Clear</string>
                </property>
@@ -154,6 +190,12 @@ p, li { white-space: pre-wrap; }
              </item>
              <item>
               <widget class="QPushButton" name="push_save">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
                <property name="text">
                 <string>Save</string>
                </property>
